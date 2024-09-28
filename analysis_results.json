@@ -1,0 +1,14 @@
+{
+    "file_hash": "example_hash",
+    "file_type": "exe",
+    "strings": [
+        "malicious_string_1",
+        "malicious_string_2"
+    ],
+    "api_calls": [
+        "CreateFileA",
+        "WriteFile",
+        "CreateFileA"
+    ],
+    "enrichment": "Enriched data based on file_hash"
+}

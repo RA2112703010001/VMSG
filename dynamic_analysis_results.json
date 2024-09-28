@@ -1,0 +1,33 @@
+{
+    "process_info": {
+        "pid": 7048,
+        "name": "python",
+        "status": "running",
+        "create_time": "2024-09-28T00:49:24.880000",
+        "memory_usage": 17.43359375,
+        "cpu_usage": 1.0,
+        "execution_time": 0.005753278732299805,
+        "child_processes": []
+    },
+    "network_logs": [
+        {
+            "timestamp": "2024-09-26T12:00:00Z",
+            "src_ip": "192.168.1.1",
+            "dst_ip": "93.184.216.34",
+            "bytes_sent": 500
+        },
+        {
+            "timestamp": "2024-09-26T12:00:05Z",
+            "src_ip": "192.168.1.1",
+            "dst_ip": "93.184.216.34",
+            "bytes_sent": 300
+        }
+    ],
+    "file_change_logs": [],
+    "registry_changes": [],
+    "memory_dumps": [
+        "/tmp/tmpb48okhlx.dmp"
+    ],
+    "sample_path": "/home/kali/VMSG/data/malware_samples/1.exe",
+    "timestamp": "2024-09-28T00:50:02.568904"
+}

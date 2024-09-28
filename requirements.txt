@@ -1,0 +1,51 @@
+# Python package requirements for the Visual Malware Signature Generator
+
+# Core Python libraries for system-level operations, file handling, and configurations
+click==8.1.3                     # Command-line interface for running the main application
+PyYAML==6.0                      # Configuration file management (e.g., config.yaml)
+
+# Malware analysis and reverse engineering
+capstone==4.0.2                  # Disassembly framework used in malware analysis (dynamic/static)
+pefile==2023.2.7                 # Parsing PE file format for static malware analysis
+cryptography==41.0.3             # Replacement for pycrypto, for cryptographic functions
+
+# Regex enhancements
+regex==2023.8.8                # Advanced regular expression capabilities for string extraction
+
+# Data parsing and processing
+pandas==2.1.1                    # Data handling and analysis library for API call patterns
+numpy==1.26.1                    # Numerical processing and matrix operations
+
+# Pattern recognition and machine learning
+scikit-learn==1.3.0              # Machine learning algorithms for pattern recognition
+joblib==1.3.1                    # Serialization and parallel execution for ML models
+
+# Graph visualization and analysis
+networkx==3.1                    # Graph-based malware behavior visualization
+matplotlib==3.8.0                # Data and graph visualization tool for rendering malware signatures
+PyGraphviz==1.11                 # Interface for Graphviz for advanced graph rendering
+
+# PyQt5 for GUI
+PyQt5==5.15.10                   # Python bindings for the Qt application framework (UI elements)
+PyQt5-sip>=12.13,<13              # Required for PyQt5 compatibility
+pyqtgraph==0.13.3                # High-performance plotting for scientific applications in PyQt5
+
+# Kivy (optional mobile version)
+kivy==2.2.0                      # Cross-platform Python GUI for developing mobile version
+
+# Logging and utility functions
+loguru==0.7.1                    # Advanced logging framework for tracking application events
+
+# Testing libraries for unit tests and automation
+pytest==7.4.0                    # Unit testing framework
+coverage==7.3.1                  # Test coverage reports
+unittest-xml-reporting==3.2.0    # Unit testing with detailed XML test reports
+
+# Optional: Memory dump and dynamic malware analysis tools
+volatility3==2.7.0       # Memory dump analysis and forensic toolkit
+objdump==0.0.1                    # Binary disassembler for static/dynamic analysis
+
+# Packaging tools
+PyInstaller==5.13.2             # For packaging and distributing the app across multiple platforms
+
+# Removed pyew and replaced it with Capstone or Radare2 if needed

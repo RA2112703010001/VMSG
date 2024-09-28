@@ -1,0 +1,2 @@
+file_hash,file_type,strings,api_calls,enrichment
+example_hash,exe,"['malicious_string_1', 'malicious_string_2']","['CreateFileA', 'WriteFile', 'CreateFileA']",Enriched data based on file_hash
